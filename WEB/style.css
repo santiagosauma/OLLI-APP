@@ -63,3 +63,49 @@ nav ul li a {
     width: 13%;
     height: 100%;
 }
+
+.mapadiv {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.mapadiv path {
+    fill: #F0E68C;
+    stroke: #8B4513;
+    stroke-width: 2px;
+}
+
+.mapadiv :hover {
+    fill: #FFD700;
+}
+
+.title-index{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-description{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    background-color: cornsilk;
+    width: 50%;
+}
+
+.title-index, .main-description {
+    width: auto;
+    margin: 0 auto;
+}
+
+.body-index{
+    background-image: url("https://images.pexels.com/photos/3105242/pexels-photo-3105242.jpeg?cs=srgb&dl=pexels-jplenio-3105242.jpg&fm=jpg");
+    background-size: cover;
+}
