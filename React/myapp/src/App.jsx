@@ -6,6 +6,7 @@ import Ciudad from './Components/Ciudad';
 import PrediccionEF from './Components/PrediccionEF';
 import Más from './Components/Mas';
 import './App.css';
+import NuevoLeon  from './Components/NuevoLeon';
 
 function App() {
   const [view, setView] = useState('Home');
@@ -20,6 +21,8 @@ function App() {
         return <PrediccionEF />;
       case 'Más':
         return <Más />;
+      case 'NuevoLeon':
+        return <NuevoLeon />;
       default:
         return <Home />;
     }
