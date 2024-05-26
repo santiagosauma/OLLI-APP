@@ -292,11 +292,20 @@ const PrediccionEF = () => {
           <div className={styles.mapTitle}>
           <h2>Estado: {selectedState}</h2>
           </div>
-            
-            <p>Consumo de energía: [datos]</p>
-            <p>Clima: [datos]</p>
-            <p>Energia prevista: [datos]</p>
-            <button onClick={() => setSelectedState(null)}>Volver</button>
+          <div className={styles.Graphs_Info}> 
+                     <div className={styles.graph}></div>
+                     <div className={styles.info}>
+
+                     <p>Consumo de energía: [datos]</p>
+                     <p>Clima: [datos]</p>
+                     <p>Energia prevista: [datos]</p>
+
+                     <button className={styles.boton} onClick={() => setSelectedState(null)}>Volver</button>
+                     
+                     </div>
+                  
+                  
+                  </div>
           </div>
         )}
       </div>

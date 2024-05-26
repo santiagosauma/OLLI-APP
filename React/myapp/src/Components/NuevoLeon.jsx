@@ -296,13 +296,24 @@ const NuevoLeon = () => {
                 <p>De momento este mapa es unicamente funcional con la ciudad de Tetouan</p>
               ) : (
                 <>
+                  <div className={styles.Graphs_Info}> 
+                     <div className={styles.graph}></div>
+                     <div className={styles.info}>
+
+                     <p>Consumo de energía: [datos]</p>
+                     <p>Clima: [datos]</p>
+                     <p>Energia prevista: [datos]</p>
+
+                     <button className={styles.boton} onClick={() => setSelectedState(null)}>Volver</button>
+                     
+                     </div>
+                  
+                  
+                  </div>
                  
-                  <p>Consumo de energía: [datos]</p>
-                  <p>Clima: [datos]</p>
-                  <p>Energia prevista: [datos]</p>
                 </>
               )}
-            <button onClick={() => setSelectedState(null)}>Volver</button>
+          
           </div>
         )}
 

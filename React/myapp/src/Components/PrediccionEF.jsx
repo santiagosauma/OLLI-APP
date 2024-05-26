@@ -118,20 +118,39 @@ const PrediccionEF = () => {
             </div>
             {selectedState !== 'Tetouan' ? (
               <div className={styles.NotFound}>          <h1>De momento este mapa es unicamente funcional con la ciudad de Tetouan</h1>
+              <br />
 
                  <div className={styles.loadingSun}><img src={'/loading_sun.png'} alt="" /></div>
-              
+                 
+                 <br />
+                 <button className={styles.boton} onClick={() => setSelectedState(null)}>Volver</button>
               </div>
       
               ) : (
                 <>
                  
-                  <p>Consumo de energía: [datos]</p>
-                  <p>Clima: [datos]</p>
-                  <p>Energia prevista: [datos]</p>
+                 <div className={styles.Graphs_Info}> 
+                     <div className={styles.graph}>
+                        <a>
+                          <img src={'/grafico.png'} alt="" />
+                          <img src={'/grafico.png'} alt="" />
+                        </a>
+                      </div>
+                     <div className={styles.info}>
+
+                     <p>Consumo de energía: [datos]</p>
+                     <p>Clima: [datos]</p>
+                     <p>Energia prevista: [datos]</p>
+
+                     <button className={styles.boton} onClick={() => setSelectedState(null)}>Volver</button>
+                     
+                     </div>
+                  
+                  
+                  </div>
                 </>
-              )}
-            <button onClick={() => setSelectedState(null)}>Volver</button>
+              )} 
+        
           </div>
         )}
 
