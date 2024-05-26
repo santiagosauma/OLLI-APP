@@ -13,7 +13,7 @@ header {
     padding: 10px;
     display: flex;
     align-items: center;
-    height: 90px;
+    height: 100px;
 }
 
 .menu-icon {
@@ -112,7 +112,57 @@ nav ul li a {
     margin: 0 auto;
 }
 
+.title-index {
+    font: bold;
+    font-size: 2.5em;
+    color: #344E41;
+}
+
 .body-index{
-    background-image: url("https://www.offshore-technology.com/wp-content/uploads/sites/20/2023/07/thomas-werneken-2hC-ehLJIjg-unsplash.jpg");
+    background-image: url("https://mexicobusiness.news/sites/default/files/styles/crop_16_9/public/2021-08/power-plant-67538_1280%20%281%29.jpg?h=2475ff28&itok=3vVBOIgV");
     background-size: cover;
+}
+
+.gradient-border {
+  --border-width: 8px;
+  position: relative;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background: #DAD7CD;
+  border-radius: var(--border-width);
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * var(--border-width));
+    left: calc(-1 * var(--border-width));
+    z-index: -1;
+    width: calc(100% + var(--border-width) * 2);
+    height: calc(100% + var(--border-width) * 2);
+    background: linear-gradient(
+      60deg,
+      hsl(195, 100%, 50%),
+      hsl(54, 100%, 50%),
+      hsl(120, 100%, 40%),
+      hsl(90, 100%, 50%),
+      hsl(134, 100%, 25%),
+      hsl(145, 100%, 30%),
+      hsl(54, 100%, 50%),
+      hsl(195, 100%, 50%),
+      hsl(200, 100%, 70%)
+    );
+    background-size: 300% 300%;
+    background-position: 0 50%;
+    border-radius: calc(2 * var(--border-width));
+    animation: moveGradient 4s alternate infinite;
+  }
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
 }
