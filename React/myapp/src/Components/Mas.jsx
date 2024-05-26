@@ -35,7 +35,6 @@ const Más = () => {
       linkedn: '',
       wha: ''
     },
-    // Agrega más miembros aquí si es necesario
   ];
   
   return (
