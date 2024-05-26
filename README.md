@@ -1,2 +1,2 @@
 # OLLI-APP
-Lince Hacks osiosi
+Lince Hacks
