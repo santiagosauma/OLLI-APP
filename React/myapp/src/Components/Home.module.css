@@ -1,4 +1,79 @@
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4c4c4c;
+  height: calc(100vh - 12vh);
+  position: relative;
+}
+
+.content {
+  background-color: #DAD7CD;
+  width: 65%;
+  height: 60%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.sun {
+  position: absolute;
+  bottom: 3%;
+  right: 8.6%;
+  background-color: #d829022e;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(186, 94, 9, 0.271);
+  transition: 0.5s;
+}
+
+.sun img {
+  width: 250px; /* Ajusta el tamaño del sol según sea necesario */
+  height: auto;
+  border-radius: 50%;
+
+}
+
+.sun:hover {
+  transform: scale(1.1);
+}
+
+.main_description{
+  text-align: center;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.main_description h3{
+  font-size: 1.3em;
+  font-weight: 600;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.title_index, .main_description {
+  width: auto;
+  margin: 0 auto;
+}
+
+.title_index{
+  font-size: 3em;
+  font-weight: 700;
+
+}
+
+
+
+
+
+
+
+/*
 .main_description{
     text-align: center;
     margin-top: 20px;
@@ -9,6 +84,7 @@
     align-items: center;
     justify-content: center;
     height: calc(100vh - 90px);
+    flex-direction: column;
 }
 
 .main_container {
@@ -27,6 +103,65 @@
 }
 
 .body_index{
-    background-image: url("https://www.offshore-technology.com/wp-content/uploads/sites/20/2023/07/thomas-werneken-2hC-ehLJIjg-unsplash.jpg");
-    background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
 }
+
+
+.gradient_border {
+
+    
+    --border-width: 8px;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #DAD7CD;
+    border-radius: var(--border-width);
+        
+    flex-direction: column;
+    text-align: center;
+
+    width: 50%;
+}
+
+    
+  
+.gradient_border::after {
+      position: absolute;
+      content: "";
+      top: calc(-1 * var(--border-width));
+      left: calc(-1 * var(--border-width));
+      z-index: -1;
+      width: calc(100% + var(--border-width) * 2);
+      height: calc(100% + var(--border-width) * 2);
+      background: linear-gradient(
+        60deg,
+        hsl(195, 100%, 50%),
+        hsl(54, 100%, 50%),
+        hsl(120, 100%, 40%),
+        hsl(90, 100%, 50%),
+        hsl(134, 100%, 25%),
+        hsl(145, 100%, 30%),
+        hsl(54, 100%, 50%),
+        hsl(195, 100%, 50%),
+        hsl(200, 100%, 70%)
+      );
+      background-size: 300% 300%;
+      background-position: 0 50%;
+      border-radius: calc(2 * var(--border-width));
+      animation: moveGradient 4s alternate infinite;
+    }
+  
+  @keyframes moveGradient {
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  */
