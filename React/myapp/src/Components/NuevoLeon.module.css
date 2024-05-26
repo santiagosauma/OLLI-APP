@@ -150,7 +150,7 @@
   .mapadiv path {
     fill: #f0e68c;
     stroke: #8b4513;
-    stroke-width: 2px;
+    stroke-width: 20px;
   }
   
   .mapadiv :hover {
@@ -161,7 +161,7 @@
     display: inline;
     fill-opacity: 100;
   }
-  
+   
   .infoContainer {
     width: 60%;
     height: 70%;

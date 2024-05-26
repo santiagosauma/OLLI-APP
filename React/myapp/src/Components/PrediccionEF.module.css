@@ -46,6 +46,40 @@
   background-color: #a3b18a33;
 }
 
+.loadingSun{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+ text-align: justify;
+}
+
+.loadingSun img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: rotate 10s linear infinite;
+}
+
+.NotFound{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.NotFound h1{
+  font-size: 3em;
+  color: black;
+  width: 80%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .body_index2_selected {
   margin: 0;
   padding: 0;

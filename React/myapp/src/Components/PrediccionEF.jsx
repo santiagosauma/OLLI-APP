@@ -117,7 +117,12 @@ const PrediccionEF = () => {
             <h2>Estado: {selectedState}</h2>
             </div>
             {selectedState !== 'Tetouan' ? (
-                <p>De momento este mapa es unicamente funcional con la ciudad de Tetouan</p>
+              <div className={styles.NotFound}>          <h1>De momento este mapa es unicamente funcional con la ciudad de Tetouan</h1>
+
+                 <div className={styles.loadingSun}><img src={'/loading_sun.png'} alt="" /></div>
+              
+              </div>
+      
               ) : (
                 <>
                  
