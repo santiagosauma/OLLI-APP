@@ -25,10 +25,6 @@ header {
     color: #7fff00;
 } 
 
-.menu-icon {
-    margin-right: 20px;
-}
-
 .header-title {
     flex-grow: 1;
 }
@@ -54,9 +50,8 @@ nav ul li a {
 }
 
 .menu-icon {
-    height: 100px;
-    width: 100px;
-    margin-right: 0px;
+    height: 80px;
+    width: 80px;
 }
 
 .menu-icon img {
@@ -65,11 +60,11 @@ nav ul li a {
 }
 
 .header-title {
-    height: 50px;
+    height: 40px;
 }
 
 .header-title img {
-    width: 13%;
+    width: 11%;
     height: 100%;
 }
 
