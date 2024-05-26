@@ -103,7 +103,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 100px);
 }
 
 .main-container {
@@ -174,4 +174,20 @@ nav ul li a {
   50% {
     background-position: 100% 50%;
   }
+}
+
+.map-tetuan {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.map-tetuan path {
+    fill: #F0E68C;
+    stroke: #8B4513;
+    stroke-width: 5px;
+}
+
+.map-tetuan :hover {
+    fill: #FFD700;
 }
