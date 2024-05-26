@@ -1,6 +1,6 @@
 .card {
-    width: 23.5vw;
-    height: 63vh;
+    width: 23vw;
+    height: 62vh;
     margin: 0 auto;
     background-color: #DAD7CD;
     border-radius: 8px;
@@ -51,7 +51,7 @@
   
   .imagenesTeam {
     width: 18vw;
-    height: 300px;
+    height: 250px;
   }
   
   .imagenesTeam img {
@@ -131,7 +131,7 @@
   
   .imgSocialCard {
     width: 45%;
-    height: 45%;
+    height: 43%;
   }
   
   .socialContainer:hover .socialSvg {
