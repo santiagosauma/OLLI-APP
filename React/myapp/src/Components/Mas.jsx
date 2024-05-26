@@ -8,10 +8,10 @@ const Más = () => {
   const teamMembers = [
     {
       name: 'Jesús Ramírez',
-      image: 'https://assets.entrepreneur.com/images/misc/1648673865_ent22_aprilmay_qandatc1.jpg?width=1000',
-      mail: '',
-      github: 'https://github.com/IsaacRoSosa',
-      linkedn: '',
+      image: 'https://media.licdn.com/dms/image/D4E03AQF17jr3J7EUzg/profile-displayphoto-shrink_400_400/0/1698896187725?e=1722470400&v=beta&t=PW9dOteI72tRk6h2Mx9582U6x_s2peeMIrL-rrdQFfo',
+      mail: 'mailto:a00835680@tec.mx',
+      github: 'https://github.com/JesusRam04',
+      linkedn: 'linkedin.com/in/jesusmend',
       wha: ''
     },    {
       name: 'Luis Santiago Sauma',
@@ -23,16 +23,16 @@ const Más = () => {
     },    {
       name: 'Isaac Rojas Sosa',
       image: 'https://assets.entrepreneur.com/images/misc/1648673865_ent22_aprilmay_qandatc1.jpg?width=1000',
-      mail: '',
+      mail: 'mailto:isaacrojassosa@gmail.com',
       github: 'https://github.com/IsaacRoSosa',
       linkedn: 'linkedin.com/in/isaacrojassosa',
       wha: ''
     },    {
       name: 'Héctor Garza',
       image: 'https://assets.entrepreneur.com/images/misc/1648673865_ent22_aprilmay_qandatc1.jpg?width=1000',
-      mail: '',
-      github: 'https://github.com/IsaacRoSosa',
-      linkedn: '',
+      mail: 'mailto:garzahector1013@gmail.com',
+      github: 'https://github.com/Fraga9',
+      linkedn: 'https://www.linkedin.com/in/héctor-garza-fraga-6b660723a/',
       wha: ''
     },
   ];
