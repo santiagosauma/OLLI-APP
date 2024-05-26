@@ -23,7 +23,7 @@ const PrediccionEF = () => {
                 xmlnsSvg="http://www.w3.org/2000/svg"
                 xmlns="http://www.w3.org/2000/svg"
                 mapsvgGeoViewBox="32.716750 -86.725536 14.531518"
-                viewBox="0 0 792.41846 497.54324" 
+                viewBox="0 0 792 497" 
                 width="792.41846"
                 height="497.54324">
               
