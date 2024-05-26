@@ -16,22 +16,22 @@ const Más = () => {
     },    {
       name: 'Luis Santiago Sauma',
       image: 'https://assets.entrepreneur.com/images/misc/1648673865_ent22_aprilmay_qandatc1.jpg?width=1000',
-      mail: '',
-      github: '',
-      linkedn: '',
+      mail: 'mailto:lssaumap@gmail.com',
+      github: 'https://github.com/SantiagoSauma',
+      linkedn: 'https://www.linkedin.com/in/santiagosauma/',
       wha: ''
     },    {
       name: 'Isaac Rojas Sosa',
       image: 'https://assets.entrepreneur.com/images/misc/1648673865_ent22_aprilmay_qandatc1.jpg?width=1000',
       mail: '',
       github: 'https://github.com/IsaacRoSosa',
-      linkedn: '',
+      linkedn: 'linkedin.com/in/isaacrojassosa',
       wha: ''
     },    {
       name: 'Héctor Garza',
       image: 'https://assets.entrepreneur.com/images/misc/1648673865_ent22_aprilmay_qandatc1.jpg?width=1000',
       mail: '',
-      github: '',
+      github: 'https://github.com/IsaacRoSosa',
       linkedn: '',
       wha: ''
     },
