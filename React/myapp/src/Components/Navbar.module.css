@@ -10,6 +10,11 @@
   height: 12vh;
  
 }
+
+.menu_icon, .header_title {
+  cursor: pointer;
+}
+
   .menu_icon {
     height: 100%;
     width: auto;

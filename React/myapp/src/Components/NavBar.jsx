@@ -14,10 +14,10 @@ const Navbar = ({ setView }) => {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.menu_icon}>
+      <div className={styles.menu_icon} onClick={() => handleItemClick('Home')}>
         <img src={icon} alt="Menu Icon" style={{ width: '100%', height: '100%' }} />
       </div>
-      <div className={styles.header_title}>
+      <div className={styles.header_title} onClick={() => handleItemClick('Home')}>
         <img src={title} alt="OLLI APP" style={{ width: '100%', height: '100%' }}/>
       </div>
       <div className={styles.header_content}>
