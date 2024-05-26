@@ -15,21 +15,21 @@ const Más = () => {
       wha: ''
     },    {
       name: 'Luis Santiago Sauma',
-      image: 'https://assets.entrepreneur.com/images/misc/1648673865_ent22_aprilmay_qandatc1.jpg?width=1000',
+      image: 'https://media.licdn.com/dms/image/D4E03AQF9LvYy6lsxBg/profile-displayphoto-shrink_400_400/0/1700778494620?e=1722470400&v=beta&t=he71xZW5hMqYNMaM8cLlvLo0WatIuF6Be1RssbWedck',
       mail: 'mailto:lssaumap@gmail.com',
       github: 'https://github.com/SantiagoSauma',
       linkedn: 'https://www.linkedin.com/in/santiagosauma/',
       wha: ''
     },    {
       name: 'Isaac Rojas Sosa',
-      image: 'https://assets.entrepreneur.com/images/misc/1648673865_ent22_aprilmay_qandatc1.jpg?width=1000',
+      image: 'https://media.licdn.com/dms/image/D5603AQGtkIoEFpAAJA/profile-displayphoto-shrink_400_400/0/1716596325922?e=1722470400&v=beta&t=xyhyT2Wt0qH0Uq_s3UGRBMZ9SsqUhptK-2_HUlun1OM',
       mail: 'mailto:isaacrojassosa@gmail.com',
       github: 'https://github.com/IsaacRoSosa',
       linkedn: 'linkedin.com/in/isaacrojassosa',
       wha: ''
     },    {
       name: 'Héctor Garza',
-      image: 'https://assets.entrepreneur.com/images/misc/1648673865_ent22_aprilmay_qandatc1.jpg?width=1000',
+      image: 'https://media.licdn.com/dms/image/D5603AQEsSxQWo5JiQA/profile-displayphoto-shrink_400_400/0/1712380532007?e=1722470400&v=beta&t=n5uvp9XiDXS5RhIDlOizDGmrNGEjKcj_Isjn9GjA6pc',
       mail: 'mailto:garzahector1013@gmail.com',
       github: 'https://github.com/Fraga9',
       linkedn: 'https://www.linkedin.com/in/héctor-garza-fraga-6b660723a/',
