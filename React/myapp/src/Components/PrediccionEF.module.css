@@ -1,0 +1,165 @@
+
+.body_index {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 12vh);
+    position: relative;
+    background-color: #1e1e1e98;
+  }
+  
+  .body_index::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/patron-maya.jpeg');
+    filter: blur(0.5px);
+    z-index: -1;
+    animation: moveBackground 60s linear infinite;
+
+  }
+
+  @keyframes moveBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  .body_index2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #a3b18a33;
+  }
+  
+  .body_index2_selected {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    background-color: #a3b18a33;
+  }
+  
+  .mapContainer {
+    width: 70%;
+    height: fit-content;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px 0px #000000;
+    animation: fadeIn 0.2s ease-out forwards;
+  }
+  
+  .mapContainer_selected {
+    width: 40%;
+    height: fit-content;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px 0px #000000;
+    animation: slideIn 1s forwards;
+  }
+  
+  .mapTitle {
+    width: 100%;
+    height: 10%;
+    background-color: #3a5a40;
+    border-radius: 25px 25px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .mapadiv {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mapadiv path {
+    fill: #f0e68c;
+    stroke: #8b4513;
+    stroke-width: 2px;
+  }
+  
+  .mapadiv :hover {
+    fill: #ffd700;
+  }
+  
+  .region {
+    display: inline;
+    fill-opacity: 100;
+  }
+  
+  .infoContainer {
+    width: 35%;
+    height: 70%;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 0px #000000;
+    animation:  slideIn2 1s backwards;
+  }
+  .infoContainer h2 {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(10%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slideIn2 {
+    0% {
+      transform: translateX(-10%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
