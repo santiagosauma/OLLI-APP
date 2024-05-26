@@ -1,0 +1,32 @@
+
+.main_description{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.post_body_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 90px);
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: cornsilk;
+    width: 50%;
+}
+
+.title_index, .main_description {
+    width: auto;
+    margin: 0 auto;
+}
+
+.body_index{
+    background-image: url("https://www.offshore-technology.com/wp-content/uploads/sites/20/2023/07/thomas-werneken-2hC-ehLJIjg-unsplash.jpg");
+    background-size: cover;
+}
