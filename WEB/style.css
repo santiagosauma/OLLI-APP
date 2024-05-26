@@ -13,8 +13,17 @@ header {
     padding: 10px;
     display: flex;
     align-items: center;
+    font-size: 20px;
     height: 100px;
 }
+
+.header-title a:hover, .menu-icon a:hover {
+    opacity: 0.7;
+}
+
+.header-content a:hover {
+    color: #7fff00;
+} 
 
 .menu-icon {
     margin-right: 20px;
