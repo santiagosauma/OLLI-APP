@@ -6,9 +6,11 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from tensorflow.keras.models import load_model
 import json
+import os
 
 # Cargar el modelo de red neuronal
-model = load_model('path/to/your/model.h5')
+model_path = os.path.join(os.path.dirname(__file__), 'ConsumptionPrediction.h5')
+model = load_model(model_path)
 
 # Función para obtener la estación del año
 def get_season(date):
