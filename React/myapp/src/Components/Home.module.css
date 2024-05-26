@@ -3,9 +3,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #4c4c4c;
+  background-color: #bd1175;
   height: calc(100vh - 12vh);
   position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.container::before {
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/patron_azteca3.jpeg');
+    filter: blur(0.5px);
+    z-index: 0;
+    animation: moveBackground 90s linear infinite;
+}
+
+
+
+@keyframes moveBackground {
+0% {
+  background-position: 0 0;
+}
+
+100% {
+  background-position: 100% 100%;
+}
+}
+
+.body_index2 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #28361895;
+  z-index: 0;
 }
 
 .content {
@@ -18,6 +57,7 @@
   align-items: center;
   flex-direction: column;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .sun {
@@ -28,6 +68,7 @@
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(186, 94, 9, 0.271);
   transition: 0.5s;
+  z-index: 2;
 }
 
 .sun img {

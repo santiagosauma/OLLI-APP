@@ -39,6 +39,7 @@ const Más = () => {
   
   return (
     <div className={styles.container}>
+       <div className={styles.body_index2}>
 
       <div className={styles.title}>
         <h1>EL EQUIPO DE DESARROLLO</h1></div>
@@ -49,6 +50,7 @@ const Más = () => {
           <TeamCard name={member.name} image={member.image} mail={member.mail} github={member.github} linkedn={member.linkedn} wha={member.wha} />
         </div>
       ))}
+      </div>
    
     </div>
     </div>
