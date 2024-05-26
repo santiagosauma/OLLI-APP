@@ -67,19 +67,26 @@
     box-shadow: 0px 0px 15px 0px #000000;
     animation: fadeIn 0.2s ease-out forwards;
     
-
     
   }
   
   .mapContainer_selected {
-    width: 40%;
-    height: fit-content;
+    width: 30%;
+    height: 60vh;
     background-color: antiquewhite;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 15px 0px #000000;
     animation: slideIn 1s forwards;
+  }
+
+  .mapContainer_selected .mapadiv svg{
+    margin-top: 25%;
+  }
+
+  .mapContainer_selected .mapTitle{
+    font-size: 1.2em;
   }
 
   @keyframes slideIn {
@@ -156,7 +163,7 @@
   }
   
   .infoContainer {
-    width: 35%;
+    width: 60%;
     height: 70%;
     background-color: antiquewhite;
     border-radius: 25px;

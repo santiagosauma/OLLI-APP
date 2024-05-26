@@ -1,0 +1,28 @@
+.contenedor_nosotros {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 3%;
+  }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #4c4c4c;
+  height: calc(100vh - 12vh);
+  align-items: center;
+}
+
+.title{
+  width: 60%;
+  height: 10vh;
+  background-color: #DAD7CD;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1em;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 2%;
+}
