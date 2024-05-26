@@ -25,7 +25,7 @@ const Navbar = ({ setView }) => {
           <li className={currentView === 'Home' ? `${styles.active}` : ''} onClick={() => handleItemClick('Home')}>Inicio</li>
           <li className={currentView === 'Ciudad' ? styles.active : ''} onClick={() => handleItemClick('Ciudad')}>Ciudad</li>
           <li className={currentView === 'PrediccionEF' ? styles.active : ''} onClick={() => handleItemClick('PrediccionEF')}>Predicción EF</li>
-          <li className={currentView === 'Más' ? styles.active : ''} onClick={() => handleItemClick('Más')}>Más</li>
+          <li className={currentView === 'Nosotros' ? styles.active : ''} onClick={() => handleItemClick('Más')}>Más</li>
         </ul>
       </div>
     </nav>
