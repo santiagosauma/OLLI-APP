@@ -28,10 +28,10 @@ In the future, we aim to collaborate with institutions and research centers to i
 - SQL (MySQL)
 
 ## Development Team
-- Gerardo Leiva Diaz (Jesusramirezm04@hotmail.com / JesusRam04)
-- Héctor Garza (garzahector1013@gmail.com / @Fraga9)
+- Jesus Ramirez (Jesusramirezm04@hotmail.com / JesusRam04)
+- Héctor Garza Fraga (garzahector1013@gmail.com / @Fraga9)
 - Isaac Rojas Sosa (isaacrojassosa@gmail.com / @IsaacRoSosa)
-- Isaac Rojas Sosa (lssaumap@gmail.com / @santiagosauma)
+- Luis Santiago Sauma Peñaloza (lssaumap@gmail.com / @santiagosauma)
 
 
 
