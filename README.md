@@ -3,7 +3,6 @@ Lince Hacks
 
 ## Website
 You can access the website here 👉 [Link to the Page when Deployed]  
-👉 [Video Demo]  
 👉 [Devpost](https://devpost.com/software/olli-app)  
 
 ## About The Project
